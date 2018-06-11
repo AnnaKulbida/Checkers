@@ -1,0 +1,168 @@
+.checkers-board {
+  width: 100%;
+  max-width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 15px;
+  border: 1px solid;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+  background-color: #e3c5ab;
+}
+
+.border-board {
+  position: relative;
+  border: 1px solid;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 562px;
+  width: 562px;
+  box-sizing: border-box;
+}
+
+.line-1 {
+  position: absolute;
+  top: 0;
+}
+
+.line-2 {
+  position: absolute;
+  top: 70px;
+}
+
+.line-3 {
+  position: absolute;
+  top: 140px;
+}
+
+.line-4 {
+  position: absolute;
+  top: 210px;
+}
+
+.line-5 {
+  position: absolute;
+  top: 280px;
+}
+
+.line-6 {
+  position: absolute;
+  top: 350px;
+}
+
+.line-7 {
+  position: absolute;
+  top: 420px;
+}
+
+.line-8 {
+  position: absolute;
+  top: 490px;
+}
+
+.line-1 .square-1-1,
+.line-3 .square-1-1,
+.line-5 .square-1-1,
+.line-7 .square-1-1 {
+  position: absolute;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+}
+
+.line-1 .square-1-2,
+.line-3 .square-1-2,
+.line-5 .square-1-2,
+.line-7 .square-1-2 {
+  position: absolute;
+  left: 140px;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+}
+
+.line-1 .square-1-3,
+.line-3 .square-1-3,
+.line-5 .square-1-3,
+.line-7 .square-1-3 {
+  position: absolute;
+  left: 280px;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+}
+
+.line-1 .square-1-4,
+.line-3 .square-1-4,
+.line-5 .square-1-4,
+.line-7 .square-1-4 {
+  position: absolute;
+  left: 420px;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+}
+
+.line-2 .square-2-1,
+.line-4 .square-2-1,
+.line-6 .square-2-1,
+.line-8 .square-2-1 {
+  position: absolute;
+  left: 70px;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+}
+
+.line-2 .square-2-2,
+.line-4 .square-2-2,
+.line-6 .square-2-2,
+.line-8 .square-2-2 {
+  position: absolute;
+  left: 210px;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+}
+
+.line-2 .square-2-3,
+.line-4 .square-2-3,
+.line-6 .square-2-3,
+.line-8 .square-2-3 {
+  position: absolute;
+  left: 350px;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+}
+
+.line-2 .square-2-4,
+.line-4 .square-2-4,
+.line-6 .square-2-4,
+.line-8 .square-2-4 {
+  position: absolute;
+  left: 490px;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+}
+
+.checker-red {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 15px;
+  border: 1px solid #ffffff;
+  background-color: #b63635;
+  border-radius: 50%;
+}
+
+.checker-black {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 15px;
+  border: 1px solid #ffffff;
+  background-color: #292524;
+  border-radius: 50%;
+}
